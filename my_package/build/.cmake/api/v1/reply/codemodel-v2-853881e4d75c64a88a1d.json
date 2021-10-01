@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "newmsg__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/newmsg__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_package__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_package__rosidl_typesupport_c__pyext-Debug-ca734f6d303f8a1b35d4.json",
+					"name" : "my_package__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_package__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_package__rosidl_typesupport_fastrtps_c__pyext-Debug-bd99124754cf706f7faf.json",
+					"name" : "my_package__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_package__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_package__rosidl_typesupport_introspection_c__pyext-Debug-96bae925c43e7fd027e6.json",
+					"name" : "my_package__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_package_uninstall-Debug-d1033ef103c534fdfcab.json",
+					"name" : "my_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newmsg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newmsg-Debug-9c085b140698380d23ff.json",
+					"name" : "newmsg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newmsg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newmsg__cpp-Debug-044b04b0c48a9b9f71d0.json",
+					"name" : "newmsg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "newmsg__py::@a5123efa91eb6b5191bd",
+					"jsonFile" : "target-newmsg__py-Debug-35a426d3cc2f60a33a54.json",
+					"name" : "newmsg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newmsg__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newmsg__python-Debug-d4bff20e5919acba0a8e.json",
+					"name" : "newmsg__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newmsg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newmsg__rosidl_generator_c-Debug-16f9e99bcc28cb078292.json",
+					"name" : "newmsg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newmsg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newmsg__rosidl_typesupport_c-Debug-c06b98c4ed46f27af041.json",
+					"name" : "newmsg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newmsg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newmsg__rosidl_typesupport_cpp-Debug-803028c7d30d98305fed.json",
+					"name" : "newmsg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newmsg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newmsg__rosidl_typesupport_fastrtps_c-Debug-0e51c316baae37def8ac.json",
+					"name" : "newmsg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newmsg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newmsg__rosidl_typesupport_fastrtps_cpp-Debug-c6a9894a53a0f5dee417.json",
+					"name" : "newmsg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newmsg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newmsg__rosidl_typesupport_introspection_c-Debug-d52fc63c55087b85f849.json",
+					"name" : "newmsg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newmsg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newmsg__rosidl_typesupport_introspection_cpp-Debug-7489d28e0c5da423909f.json",
+					"name" : "newmsg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-76e33e8baa7d1e909bd9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/plantium/temp_ws/src/my_package/build",
+		"source" : "/home/plantium/temp_ws/src/my_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

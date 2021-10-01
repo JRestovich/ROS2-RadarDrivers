@@ -1,0 +1,226 @@
+[0.012s] Invoking command in '/home/plantium/temp_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/plantium/temp_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/plantium/temp_ws/src/my_package/install/my_package
+[0.060s] -- The C compiler identification is GNU 9.3.0
+[0.104s] -- The CXX compiler identification is GNU 9.3.0
+[0.108s] -- Check for working C compiler: /usr/bin/cc
+[0.163s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.164s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.230s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.300s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.404s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.404s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.620s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.657s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.662s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.751s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.776s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.893s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.894s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.895s] -- Looking for pthread.h
+[0.954s] -- Looking for pthread.h - found
+[0.955s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.017s] -- Looking for pthread_create in pthreads
+[1.072s] -- Looking for pthread_create in pthreads - not found
+[1.072s] -- Looking for pthread_create in pthread
+[1.133s] -- Looking for pthread_create in pthread - found
+[1.134s] -- Found Threads: TRUE  
+[1.280s] -- Checking for module 'eigen3'
+[1.291s] --   Found eigen3, version 3.3.7
+[1.320s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.321s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.359s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.372s] -- Checking for module 'flann'
+[1.384s] --   Found flann, version 1.9.1
+[1.416s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.469s] -- The imported target "vtkParseOGLExt" references the file
+[1.469s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.469s] but this file does not exist.  Possible reasons include:
+[1.469s] * The file was deleted, renamed, or moved to another location.
+[1.469s] * An install or uninstall procedure did not complete successfully.
+[1.469s] * The installation package was faulty and contained
+[1.469s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.469s] but not all the files it references.
+[1.469s] 
+[1.469s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.470s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.470s] but this file does not exist.  Possible reasons include:
+[1.470s] * The file was deleted, renamed, or moved to another location.
+[1.470s] * An install or uninstall procedure did not complete successfully.
+[1.470s] * The installation package was faulty and contained
+[1.470s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.470s] but not all the files it references.
+[1.470s] 
+[1.470s] -- The imported target "vtk" references the file
+[1.470s]    "/usr/bin/vtk"
+[1.470s] but this file does not exist.  Possible reasons include:
+[1.470s] * The file was deleted, renamed, or moved to another location.
+[1.471s] * An install or uninstall procedure did not complete successfully.
+[1.471s] * The installation package was faulty and contained
+[1.471s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.471s] but not all the files it references.
+[1.471s] 
+[1.471s] -- The imported target "pvtk" references the file
+[1.471s]    "/usr/bin/pvtk"
+[1.471s] but this file does not exist.  Possible reasons include:
+[1.471s] * The file was deleted, renamed, or moved to another location.
+[1.471s] * An install or uninstall procedure did not complete successfully.
+[1.471s] * The installation package was faulty and contained
+[1.471s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.471s] but not all the files it references.
+[1.471s] 
+[1.488s] -- Checking for module 'libusb-1.0'
+[1.501s] --   Found libusb-1.0, version 1.0.23
+[1.535s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.579s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[1.579s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.630s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[1.630s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.630s] ** WARNING ** io features related to pcap will be disabled
+[1.630s] ** WARNING ** io features related to png will be disabled
+[1.643s] -- Found libusb-1.0: /usr/include  
+[1.643s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.649s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.654s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.676s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.676s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.681s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.693s] -- looking for PCL_COMMON
+[1.693s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.694s] -- looking for PCL_KDTREE
+[1.695s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.695s] -- looking for PCL_OCTREE
+[1.696s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.696s] -- looking for PCL_SEARCH
+[1.697s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.697s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.698s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.698s] -- looking for PCL_FILTERS
+[1.699s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.699s] -- looking for PCL_2D
+[1.700s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.700s] -- looking for PCL_GEOMETRY
+[1.700s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.700s] -- looking for PCL_IO
+[1.701s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.702s] -- looking for PCL_FEATURES
+[1.702s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.703s] -- looking for PCL_ML
+[1.704s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.704s] -- looking for PCL_SEGMENTATION
+[1.705s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.706s] -- looking for PCL_VISUALIZATION
+[1.707s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.707s] -- looking for PCL_SURFACE
+[1.708s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.708s] -- looking for PCL_REGISTRATION
+[1.709s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.709s] -- looking for PCL_KEYPOINTS
+[1.710s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.711s] -- looking for PCL_TRACKING
+[1.712s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.712s] -- looking for PCL_RECOGNITION
+[1.713s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.713s] -- looking for PCL_STEREO
+[1.714s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.714s] -- looking for PCL_APPS
+[1.715s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.716s] -- looking for PCL_IN_HAND_SCANNER
+[1.717s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.717s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.717s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.717s] -- looking for PCL_OUTOFCORE
+[1.718s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.719s] -- looking for PCL_PEOPLE
+[1.720s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.721s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[1.722s] -- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+[1.961s] -- Found pcl_conversions: 2.2.0 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[2.047s] -- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.115s] -- Found serial_driver: 1.0.0 (/opt/ros/foxy/share/serial_driver/cmake)
+[2.417s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.446s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.624s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.076s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.077s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.101s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.101s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.101s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.101s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.120s] -- Found PythonExtra: .so  
+[3.210s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.226s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.249s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.253s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_c>;/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_c;/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_cpp;/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_fastrtps_c;/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_cpp>;/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_py
+[3.253s] -- Configured cppcheck exclude dirs and/or files: 
+[3.276s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.276s] -- Configured cpplint exclude dirs and/or files: 
+[3.279s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.285s] -- Added test 'lint_cmake' to check CMake code style
+[3.288s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.311s] -- Added test 'uncrustify' to check C / C++ code style
+[3.311s] -- Configured uncrustify additional arguments: 
+[3.314s] -- Added test 'xmllint' to check XML markup files
+[3.319s] -- Configuring done
+[3.377s] -- Generating done
+[3.381s] -- Build files have been written to: /home/plantium/temp_ws/src/my_package/build/my_package
+[3.394s] Invoked command in '/home/plantium/temp_ws/src/my_package/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/plantium/temp_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/plantium/temp_ws/src/my_package/install/my_package
+[3.396s] Invoking command in '/home/plantium/temp_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/plantium/temp_ws/src/my_package/build/my_package -- -j12 -l12
+[3.435s] [35m[1mScanning dependencies of target newmsg__cpp[0m
+[3.435s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.444s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.654s] [  6%] Built target newmsg__cpp
+[3.657s] [35m[1mScanning dependencies of target newmsg__rosidl_generator_c[0m
+[3.663s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.663s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.664s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.668s] [ 19%] [32mBuilding C object CMakeFiles/newmsg__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/radar_scan__functions.c.o[0m
+[3.679s] In file included from [01m[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_c/my_package/msg/detail/radar_scan__functions.h:19[m[K,
+[3.679s]                  from [01m[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_c/my_package/msg/detail/radar_scan__functions.c:4[m[K:
+[3.679s] [01m[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_c/my_package/msg/detail/radar_scan__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kmy_package/msg/detail/header__struct.h: No such file or directory
+[3.679s]    22 | #include [01;31m[K"my_package/msg/detail/header__struct.h"[m[K
+[3.679s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.679s] compilation terminated.
+[3.680s] make[2]: *** [CMakeFiles/newmsg__rosidl_generator_c.dir/build.make:181: CMakeFiles/newmsg__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/radar_scan__functions.c.o] Error 1
+[3.680s] make[1]: *** [CMakeFiles/Makefile2:240: CMakeFiles/newmsg__rosidl_generator_c.dir/all] Error 2
+[3.680s] make[1]: *** Waiting for unfinished jobs....
+[3.846s] [35m[1mScanning dependencies of target newmsg__rosidl_typesupport_cpp[0m
+[3.857s] [ 22%] [32mBuilding CXX object CMakeFiles/newmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/msg/radar_scan__type_support.cpp.o[0m
+[3.862s] [35m[1mScanning dependencies of target newmsg__rosidl_typesupport_introspection_cpp[0m
+[3.874s] [ 25%] [32mBuilding CXX object CMakeFiles/newmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/msg/detail/radar_scan__type_support.cpp.o[0m
+[3.882s] [35m[1mScanning dependencies of target newmsg__rosidl_typesupport_fastrtps_cpp[0m
+[3.895s] [ 29%] [32mBuilding CXX object CMakeFiles/newmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/radar_scan__type_support.cpp.o[0m
+[3.898s] In file included from [01m[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_cpp/my_package/msg/radar_scan__type_support.cpp:7[m[K:
+[3.898s] [01m[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_cpp/my_package/msg/detail/radar_scan__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kmy_package/msg/detail/header__struct.hpp: No such file or directory
+[3.898s]    19 | #include [01;31m[K"my_package/msg/detail/header__struct.hpp"[m[K
+[3.898s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.899s] compilation terminated.
+[3.899s] make[2]: *** [CMakeFiles/newmsg__rosidl_typesupport_cpp.dir/build.make:162: CMakeFiles/newmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/msg/radar_scan__type_support.cpp.o] Error 1
+[3.899s] make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/newmsg__rosidl_typesupport_cpp.dir/all] Error 2
+[3.915s] In file included from [01m[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_introspection_cpp/my_package/msg/detail/radar_scan__type_support.cpp:12[m[K:
+[3.916s] [01m[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_cpp/my_package/msg/detail/radar_scan__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kmy_package/msg/detail/header__struct.hpp: No such file or directory
+[3.916s]    19 | #include [01;31m[K"my_package/msg/detail/header__struct.hpp"[m[K
+[3.916s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.916s] compilation terminated.
+[3.917s] make[2]: *** [CMakeFiles/newmsg__rosidl_typesupport_introspection_cpp.dir/build.make:167: CMakeFiles/newmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/msg/detail/radar_scan__type_support.cpp.o] Error 1
+[3.917s] make[1]: *** [CMakeFiles/Makefile2:415: CMakeFiles/newmsg__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[3.941s] In file included from [01m[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/radar_scan__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[3.941s]                  from [01m[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/radar_scan__type_support.cpp:4[m[K:
+[3.941s] [01m[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_cpp/my_package/msg/detail/radar_scan__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kmy_package/msg/detail/header__struct.hpp: No such file or directory
+[3.941s]    19 | #include [01;31m[K"my_package/msg/detail/header__struct.hpp"[m[K
+[3.942s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.942s] compilation terminated.
+[3.942s] make[2]: *** [CMakeFiles/newmsg__rosidl_typesupport_fastrtps_cpp.dir/build.make:167: CMakeFiles/newmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/radar_scan__type_support.cpp.o] Error 1
+[3.943s] make[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/newmsg__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[3.943s] make: *** [Makefile:141: all] Error 2
+[3.945s] Invoked command in '/home/plantium/temp_ws/src/my_package/build/my_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/plantium/temp_ws/src/my_package/build/my_package -- -j12 -l12

@@ -1,0 +1,273 @@
+[0.000000] (-) TimerEvent: {}
+[0.000494] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000541] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.011864] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.012131] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/plantium/temp_ws/src/my_package', '-DCMAKE_INSTALL_PREFIX=/home/plantium/temp_ws/src/my_package/install/my_package'], 'cwd': '/home/plantium/temp_ws/src/my_package/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'plantium'), ('LC_TIME', 'es_AR.UTF-8'), ('SSH_AGENT_PID', '2116'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/75/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/plantium'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.60.2'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/75/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_AR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/75/usr/share/code/code'), ('MANAGERPID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/plantium/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'plantium'), ('JOURNAL_STREAM', '8:52592'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'plantium'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/plantium/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Plantium:@/tmp/.ICE-unix/2151,unix/Plantium:/tmp/.ICE-unix/2151'), ('INVOCATION_ID', 'ee3808257e32495f9f81d5220ae519ee'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_AR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cf8706ba_1959_4b4b_818e_efa29c413346'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'es_AR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-46143bf787.sock'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/75/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_AR.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_AR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_AR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/plantium/temp_ws/src/my_package/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_AR.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/plantium/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'es_AR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.060050] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.099857] (-) TimerEvent: {}
+[0.104837] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.109037] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.163832] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.164699] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199946] (-) TimerEvent: {}
+[0.220082] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.230874] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.231369] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.233528] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299731] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.299943] (-) TimerEvent: {}
+[0.300985] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.366711] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.379680] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.380477] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.382969] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.400050] (-) TimerEvent: {}
+[0.404523] (my_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.404705] (my_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500162] (-) TimerEvent: {}
+[0.600486] (-) TimerEvent: {}
+[0.620643] (my_package) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.657493] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.662724] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700572] (-) TimerEvent: {}
+[0.751539] (my_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.776626] (my_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.800658] (-) TimerEvent: {}
+[0.843534] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.893308] (my_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.894558] (my_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.895332] (my_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900731] (-) TimerEvent: {}
+[0.954926] (my_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.955139] (my_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000830] (-) TimerEvent: {}
+[1.015473] (my_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.017211] (my_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.072731] (my_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.072921] (my_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.100917] (-) TimerEvent: {}
+[1.133809] (my_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.134717] (my_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201021] (-) TimerEvent: {}
+[1.280472] (my_package) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.292039] (my_package) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[1.301106] (-) TimerEvent: {}
+[1.321048] (my_package) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.321217] (my_package) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[1.359362] (my_package) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[1.372464] (my_package) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.384264] (my_package) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.401221] (-) TimerEvent: {}
+[1.416979] (my_package) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.469147] (my_package) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[1.469315] (my_package) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[1.469391] (my_package) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.469458] (my_package) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.469524] (my_package) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.469589] (my_package) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.469690] (my_package) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.469788] (my_package) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.469856] (my_package) StdoutLine: {'line': b'\n'}
+[1.470072] (my_package) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[1.470171] (my_package) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[1.470242] (my_package) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.470309] (my_package) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.470373] (my_package) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.470436] (my_package) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.470498] (my_package) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.470560] (my_package) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.470702] (my_package) StdoutLine: {'line': b'\n'}
+[1.470794] (my_package) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[1.470864] (my_package) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[1.471035] (my_package) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.471121] (my_package) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.471190] (my_package) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.471256] (my_package) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.471320] (my_package) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.471384] (my_package) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.471446] (my_package) StdoutLine: {'line': b'\n'}
+[1.471509] (my_package) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[1.471571] (my_package) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[1.471634] (my_package) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.471696] (my_package) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.471759] (my_package) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.471821] (my_package) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.471884] (my_package) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.471947] (my_package) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.472009] (my_package) StdoutLine: {'line': b'\n'}
+[1.488646] (my_package) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.501131] (my_package) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.23\n'}
+[1.501311] (-) TimerEvent: {}
+[1.535908] (my_package) StdoutLine: {'line': b'-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.579467] (my_package) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so  \n'}
+[1.579653] (my_package) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.601413] (-) TimerEvent: {}
+[1.630237] (my_package) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/libOpenNI2.so  \n'}
+[1.630406] (my_package) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[1.630535] (my_package) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[1.630664] (my_package) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[1.643496] (my_package) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[1.643635] (my_package) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[1.649155] (my_package) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.654424] (my_package) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[1.676562] (my_package) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[1.676704] (my_package) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[1.682047] (my_package) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.693203] (my_package) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.694085] (my_package) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.694369] (my_package) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.695236] (my_package) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.695457] (my_package) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.696356] (my_package) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.696596] (my_package) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.697441] (my_package) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.697711] (my_package) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.698568] (my_package) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.698798] (my_package) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.699649] (my_package) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.699943] (my_package) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.700217] (my_package) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[1.700441] (my_package) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.700759] (my_package) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[1.700898] (my_package) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.701466] (-) TimerEvent: {}
+[1.701800] (my_package) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.702135] (my_package) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.703016] (my_package) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.703398] (my_package) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.704378] (my_package) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.704774] (my_package) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.705839] (my_package) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.706256] (my_package) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.707143] (my_package) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.707526] (my_package) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.708438] (my_package) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.708757] (my_package) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.709656] (my_package) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.710028] (my_package) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.710993] (my_package) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.711344] (my_package) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.712277] (my_package) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.712611] (my_package) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.713504] (my_package) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.713947] (my_package) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.714831] (my_package) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.715118] (my_package) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.716003] (my_package) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.716889] (my_package) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.717206] (my_package) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[1.717398] (my_package) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.717765] (my_package) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[1.717957] (my_package) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.718895] (my_package) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.719240] (my_package) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.720141] (my_package) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.721287] (my_package) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  \n'}
+[1.722640] (my_package) StdoutLine: {'line': b'-- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)\n'}
+[1.801598] (-) TimerEvent: {}
+[1.901871] (-) TimerEvent: {}
+[1.961691] (my_package) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.0 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[2.001991] (-) TimerEvent: {}
+[2.047263] (my_package) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[2.102096] (-) TimerEvent: {}
+[2.115240] (my_package) StdoutLine: {'line': b'-- Found serial_driver: 1.0.0 (/opt/ros/foxy/share/serial_driver/cmake)\n'}
+[2.202216] (-) TimerEvent: {}
+[2.302479] (-) TimerEvent: {}
+[2.402748] (-) TimerEvent: {}
+[2.417512] (my_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.446886] (my_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.502865] (-) TimerEvent: {}
+[2.603132] (-) TimerEvent: {}
+[2.624300] (my_package) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.703260] (-) TimerEvent: {}
+[2.803497] (-) TimerEvent: {}
+[2.903727] (-) TimerEvent: {}
+[2.905963] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.003816] (-) TimerEvent: {}
+[3.053203] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.076895] (my_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.077827] (my_package) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.101122] (my_package) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.101359] (my_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.101441] (my_package) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.101509] (my_package) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.103881] (-) TimerEvent: {}
+[3.120776] (my_package) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.204009] (-) TimerEvent: {}
+[3.210703] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.226911] (my_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.249951] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.253963] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_c>;/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_c;/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_cpp;/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_fastrtps_c;/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_cpp>;/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_py\n'}
+[3.254090] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.276192] (my_package) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.276315] (my_package) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.279576] (my_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.285397] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.288523] (my_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.304105] (-) TimerEvent: {}
+[3.311156] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.311353] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.314417] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.319888] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.377471] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[3.381212] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/plantium/temp_ws/src/my_package/build/my_package\n'}
+[3.394211] (my_package) CommandEnded: {'returncode': 0}
+[3.395055] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[3.395864] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/plantium/temp_ws/src/my_package/build/my_package', '--', '-j12', '-l12'], 'cwd': '/home/plantium/temp_ws/src/my_package/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'plantium'), ('LC_TIME', 'es_AR.UTF-8'), ('SSH_AGENT_PID', '2116'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/75/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/plantium'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.60.2'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/75/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_AR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/75/usr/share/code/code'), ('MANAGERPID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/plantium/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'plantium'), ('JOURNAL_STREAM', '8:52592'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'plantium'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/plantium/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Plantium:@/tmp/.ICE-unix/2151,unix/Plantium:/tmp/.ICE-unix/2151'), ('INVOCATION_ID', 'ee3808257e32495f9f81d5220ae519ee'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_AR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cf8706ba_1959_4b4b_818e_efa29c413346'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'es_AR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-46143bf787.sock'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/75/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_AR.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_AR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_AR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/plantium/temp_ws/src/my_package/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_AR.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/plantium/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'es_AR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.404213] (-) TimerEvent: {}
+[3.435195] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target newmsg__cpp\x1b[0m\n'}
+[3.435905] (my_package) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.444888] (my_package) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.504293] (-) TimerEvent: {}
+[3.604541] (-) TimerEvent: {}
+[3.654399] (my_package) StdoutLine: {'line': b'[  6%] Built target newmsg__cpp\n'}
+[3.657865] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target newmsg__rosidl_generator_c\x1b[0m\n'}
+[3.663753] (my_package) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.664046] (my_package) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.664210] (my_package) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.668464] (my_package) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/newmsg__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/radar_scan__functions.c.o\x1b[0m\n'}
+[3.679434] (my_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_c/my_package/msg/detail/radar_scan__functions.h:19\x1b[m\x1b[K,\n'}
+[3.679628] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_c/my_package/msg/detail/radar_scan__functions.c:4\x1b[m\x1b[K:\n'}
+[3.679712] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_c/my_package/msg/detail/radar_scan__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_package/msg/detail/header__struct.h: No such file or directory\n'}
+[3.679795] (my_package) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"my_package/msg/detail/header__struct.h"\x1b[m\x1b[K\n'}
+[3.679867] (my_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.679936] (my_package) StderrLine: {'line': b'compilation terminated.\n'}
+[3.680302] (my_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/newmsg__rosidl_generator_c.dir/build.make:181: CMakeFiles/newmsg__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/radar_scan__functions.c.o] Error 1\n'}
+[3.680584] (my_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:240: CMakeFiles/newmsg__rosidl_generator_c.dir/all] Error 2\n'}
+[3.680703] (my_package) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.704619] (-) TimerEvent: {}
+[3.804872] (-) TimerEvent: {}
+[3.846163] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target newmsg__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.857496] (my_package) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/newmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/msg/radar_scan__type_support.cpp.o\x1b[0m\n'}
+[3.862979] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target newmsg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.874727] (my_package) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/newmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/msg/detail/radar_scan__type_support.cpp.o\x1b[0m\n'}
+[3.882882] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target newmsg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.895941] (my_package) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/newmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/radar_scan__type_support.cpp.o\x1b[0m\n'}
+[3.898584] (my_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_cpp/my_package/msg/radar_scan__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[3.898799] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_cpp/my_package/msg/detail/radar_scan__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_package/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.898933] (my_package) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K"my_package/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.899048] (my_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.899153] (my_package) StderrLine: {'line': b'compilation terminated.\n'}
+[3.899707] (my_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/newmsg__rosidl_typesupport_cpp.dir/build.make:162: CMakeFiles/newmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/msg/radar_scan__type_support.cpp.o] Error 1\n'}
+[3.899877] (my_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/newmsg__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[3.904948] (-) TimerEvent: {}
+[3.915856] (my_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_introspection_cpp/my_package/msg/detail/radar_scan__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[3.916128] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_cpp/my_package/msg/detail/radar_scan__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_package/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.916312] (my_package) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K"my_package/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.916443] (my_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.916567] (my_package) StderrLine: {'line': b'compilation terminated.\n'}
+[3.917127] (my_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/newmsg__rosidl_typesupport_introspection_cpp.dir/build.make:167: CMakeFiles/newmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/msg/detail/radar_scan__type_support.cpp.o] Error 1\n'}
+[3.917306] (my_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:415: CMakeFiles/newmsg__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[3.941515] (my_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/radar_scan__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[3.941764] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/radar_scan__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[3.941906] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/plantium/temp_ws/src/my_package/build/my_package/rosidl_generator_cpp/my_package/msg/detail/radar_scan__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_package/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.942032] (my_package) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K"my_package/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.942155] (my_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.942274] (my_package) StderrLine: {'line': b'compilation terminated.\n'}
+[3.942973] (my_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/newmsg__rosidl_typesupport_fastrtps_cpp.dir/build.make:167: CMakeFiles/newmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/radar_scan__type_support.cpp.o] Error 1\n'}
+[3.943138] (my_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/newmsg__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[3.943330] (my_package) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.945212] (my_package) CommandEnded: {'returncode': 2}
+[3.996452] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 2}
+[4.005054] (-) TimerEvent: {}
+[4.007083] (-) EventReactorShutdown: {}
